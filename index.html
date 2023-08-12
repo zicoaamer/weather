@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="icon" href="logo@2x.png">
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="Css/main.css">
+    <!-- Bootstrap Css File -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Start Navbar Section -->
+  <nav class="navbar navbar-expand-lg bg-all">
+    <div class="container py-4 px-6">
+      <a class="navbar-brand d-flex flex-row w-25" href="#">
+        <img  src="logo@2x.png">
+        <div class="brand-text">
+          <h1 class="w-25 text-white">Weather</h1>
+          <p class="text-white-50 desc">tagline goes here</p>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar Section -->
+  <!-- Start Search Section -->
+  <div class="search" style="background-image: url(&quot;images/banner.png&quot;);">
+    <div class="container">
+      <form class="find">
+        <input type="text" placeholder="Find your location..." id="search">
+        <input type="button" value="Find" id="submit">
+      </form>
+    </div>
+  </div>
+  <!-- End Search Section -->
+  <!-- Start forecast Section -->
+  <div class="forecast">
+    <div class="container">
+      <div class="row g-2">
+        <div class="col-md-4 current">
+            <div class="forecast-header px-5 pt-3 d-flex justify-content-between ">
+            </div>
+            <div class="forecast-content p-4 d-flex flex-column text-center">
+            </div>
+        </div>
+        <div class="col-md-4 tomorrow">
+          <div class="forecast-header px-3 py-2 text-center w-100">
+          </div>
+          <div class="forecast-content text-center d-flex flex-column ">
+          </div>
+        </div>
+        <div class="col-md-4 after-tomorrow">
+          <div class="forecast-header px-3 py-2 text-center w-100">
+          </div>
+          <div class="forecast-content text-center d-flex flex-column">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End forecast Section -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <form action="#" class="subs">
+            <input type="text" placeholder="Enter your email to subscribe...">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="col-md-3 col-md-offset-1 pt-1">
+          <div class="social-links pt-2">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyRight">Copyright 2023. Designed by zicoaamer. All rights reserved</p>
+    </div>
+  </footer>
+    <!-- Bootstrap Js File -->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <!-- Main Js File -->
+    <script src="Js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/12dfd142c5.js" crossorigin="anonymous"></script>
+</body>
+</html>
